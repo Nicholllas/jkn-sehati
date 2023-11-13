@@ -1,0 +1,41 @@
+#map {
+    height: 600px;
+    margin-bottom: 20px;
+}
+
+.section-map .form-grup {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.section-map .dariSini {
+    font-size: 14px;
+    height: 30px;
+    margin-top: 130px;
+}
+
+.custom-label-icon {
+    position: relative;
+
+    text-align: center;
+    color: black;
+    background-image: url('../images//icon/hospital.png');
+    background-size: 100%; /* Adjust the background size as needed */
+    background-repeat: no-repeat; /* Prevent repeating the background image */
+    background-position: center; /* Center the background image */
+    border-radius: 4px; /* Adjust border radius as needed */
+    font-size: 12px; /* Adjust font size as needed */
+    font-weight: bold; /* Optionally, make the text bold */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+}
+.custom-label-icon div {
+    width: 100px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    display: inline-block;
+    vertical-align: middle; /* Vertical centering */
+    line-height: normal; /* Reset line-height for inner div */
+    padding: 0 8px; /* Add padding around the text */
+}
+.custom-label-icon div {
+    color: #000; /* Change the text color to white */
+}

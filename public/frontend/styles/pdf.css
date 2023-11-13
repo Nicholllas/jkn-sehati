@@ -1,0 +1,33 @@
+header {
+    background-image: url('../images/logo-bpjs.png'); /* Replace with your image file path */
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    height: 100px; /* Adjust the height as needed */
+    background-repeat: no-repeat;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: -60px;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    color: #000;
+    text-align: center;
+    border-top: 1px solid #000;
+    font-size: 12px;
+}
+
+@page {
+    size: a4 landscape;
+}
+table {
+    width: 100%;
+}
+
+th,
+td {
+    padding: 3px;
+}
